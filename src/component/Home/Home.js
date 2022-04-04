@@ -11,8 +11,8 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="home-desc">
-          <h1>Product Analysis</h1>
-          <h2>Lorem ipsum dolor sit amet</h2>
+          <h1 className="fw-bold">Product Analysis</h1>
+          <h2 className="fw-bold">Lorem ipsum dolor sit amet</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             impedit temporibus illum dignissimos iste numquam architecto quis
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className="mb-5">
-          <h2>Customer Review (3/6)</h2>
+          <h2>Customer Review (3/{review.length})</h2>
           <div className='row row-cols-3 g-5 m-5 px-5'>
              {
               review.slice(0,3).map(review => <Review
