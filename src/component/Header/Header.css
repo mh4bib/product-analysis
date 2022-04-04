@@ -1,0 +1,11 @@
+.header{
+    background-color: #e3e8ec;
+    padding: 15px 0;
+}
+.link{
+    text-decoration: none;
+    margin: 0 30px;
+    color: #0084ff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
