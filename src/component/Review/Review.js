@@ -5,7 +5,7 @@ const Review = (props) => {
   const { name, picture, rating, review } = props.review;
   console.log(props);
   return (
-    <div className="col">
+    <div className="col px-5">
       <Card>
         <Card.Img variant="top" src={picture} />
         <Card.Body>

@@ -1,8 +1,12 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import useReviews from "../../hooks/useReviews";
 import HomePhoto from "../../product.jpg";
+import Review from "../Review/Review";
 import "./Home.css";
 const Home = () => {
+    const [review, setReview] = useReviews();
   return (
     <div>
       <div className="home">
@@ -24,11 +28,17 @@ const Home = () => {
           <img src={HomePhoto} alt="" />
         </div>
       </div>
-      <div>
+      <div className="mb-5">
           <h2>Customer Review (3/6)</h2>
-          {
-              
-          }
+          <div className='row row-cols-3 g-5 m-5 px-5'>
+             {
+              review.slice(0,3).map(review => <Review
+              key={review.id}
+              review={review}
+              ></Review>)
+          } 
+          </div>
+          <Button variant="primary"><Link className="text-white text-decoration-none" to="/reviews">SEE ALL REVIEWS</Link></Button>{" "}
       </div>
     </div>
   );
