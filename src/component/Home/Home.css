@@ -1,0 +1,21 @@
+.home{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 50px;
+}
+
+.home-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    margin: 25px 10px;
+    padding: 25px 10px;
+}
+.home-desc h1,h2{
+    color: #006eff;
+    margin: 0;
+}
+.img img{
+    width: 500px;
+}
