@@ -1,6 +1,6 @@
 # Project Name - Product Analysis
 
-See the live preview of [the project](https://github.com/facebook/create-react-app).
+See the [live preview of the project](https://product-analysis-car.netlify.app/).
 
 * the project is mainly built with reactjs
 * used destructuring in the app
