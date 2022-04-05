@@ -1,3 +1,12 @@
+# Project Name - Product Analysis
+
+See the live preview of [the project](https://github.com/facebook/create-react-app).
+
+* the project is mainly built with reactjs
+* used destructuring in the app
+* custom hook is used to load data
+* recharts is used to show graphical chart
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
